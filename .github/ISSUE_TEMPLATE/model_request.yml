@@ -35,7 +35,7 @@ body:
     validations:
       required: true
       
-  - type: dropdown
+  - type: checkboxes
     id: type
     attributes:
       label: model type
