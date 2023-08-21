@@ -35,12 +35,9 @@ body:
     validations:
       required: true
 
-- type: checkboxes
-  attributes:
-    options:
-    - label: Your name
       
   - type: checkboxes
+    id: mod_type
     attributes:
       label: model type
       description: What type of model are you submitting?
@@ -50,7 +47,6 @@ body:
         - label: attempted reproduction of a previous model (including with different codes, etc)
         - label: missing data model (input files available, requires re-running by community)
         - label: other
-      default: 0
     validations:
       required: true
 
