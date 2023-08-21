@@ -41,7 +41,6 @@ body:
     - label: Your name
       
   - type: checkboxes
-    id: type
     attributes:
       label: model type
       description: What type of model are you submitting?
