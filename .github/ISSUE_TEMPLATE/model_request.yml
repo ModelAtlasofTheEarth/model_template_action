@@ -66,7 +66,7 @@ body:
     id: model-license
     attributes:
       label: License
-      description: "If there is a license, please provide the name of the license (or None if there is no license specified).
+      description: "If there is a license, please provide the name of the license (or None if there is no license specified)."
       placeholder: "CC-BY-4.0"
     validations:
       required: true
