@@ -17,12 +17,36 @@ body:
     validations:
       required: true
 
-  - type: input
-    id: model-description
+  - type: textarea
+    id: abstract
     attributes:
-      label: Model Description
+      label: Abstract
       description: "Please provide a short description of your model"
-      placeholder: "It really is"
+      placeholder: "It really is...expanding"
+    validations:
+      required: true
+
+  - type: input
+    id: for
+    attributes:
+      label: Field of research
+      description: "Please submit a Field of Research (FOR) code"
+      placeholder: "3706"
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: type
+    attributes:
+      label: model type
+      description: What type of model are you submitting?
+      options:
+        - published study
+        - commmunity benchmark
+        - attempted reproduction of a previous model (including with different codes, etc)
+        - missing data model (input files available, requires re-running by community)
+        - other
+      default: 0
     validations:
       required: true
 
