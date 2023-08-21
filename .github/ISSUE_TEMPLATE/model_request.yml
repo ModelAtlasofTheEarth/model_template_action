@@ -34,6 +34,11 @@ body:
       placeholder: "3706"
     validations:
       required: true
+
+- type: checkboxes
+  attributes:
+    options:
+    - label: Your name
       
   - type: checkboxes
     id: type
@@ -41,11 +46,11 @@ body:
       label: model type
       description: What type of model are you submitting?
       options:
-        - published study
-        - commmunity benchmark
-        - attempted reproduction of a previous model (including with different codes, etc)
-        - missing data model (input files available, requires re-running by community)
-        - other
+        - label: published study
+        - label: commmunity benchmark
+        - label: attempted reproduction of a previous model (including with different codes, etc)
+        - label: missing data model (input files available, requires re-running by community)
+        - label: other
       default: 0
     validations:
       required: true
