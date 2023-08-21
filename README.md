@@ -1,6 +1,6 @@
 
 <div id="top"></div>
-<img src="https://github.com/ModelAtlasofTheEarth/model_template_action/blob/main/assets/mate3.png" height="70">
+<img src="https://github.com/ModelAtlasofTheEarth/model_template_action/blob/main/assets/mate3.png" height="270">
 
 
 # Welcome to the Model Atlas of The Earth (M@TE)
