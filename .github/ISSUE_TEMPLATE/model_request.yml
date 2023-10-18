@@ -88,38 +88,7 @@ body:
 
         E.g., `log.txt` | E.g., Logfile from original model execution on NCI Gadi  | 
 
-  - type: textarea
-    id: spatial extent
-    attributes:
-      label: File Description
-      description: "Please describe any additional files (related to model execution, reproduction and postprocessing) in the table below"
-      value:
-            ```geojson
-            {
-              "type": "FeatureCollection",
-              "features": [
-                {
-                  "type": "Feature",
-                  "id": 1,
-                  "properties": {
-                    "ID": 0
-                  },
-                  "geometry": {
-                    "type": "Polygon",
-                    "coordinates": [
-                      [
-                          [-90,35],
-                          [-90,30],
-                          [-85,30],
-                          [-85,35],
-                          [-90,35]
-                      ]
-                    ]
-                  }
-                }
-              ]
-            }
-            ``` 
+
 
 
       
